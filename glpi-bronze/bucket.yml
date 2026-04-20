@@ -1,4 +1,8 @@
 flows:
+  8495b918-a316-498a-b128-ddd188776554: {ver: 1, file: ingest_ticket_satisfactions_mysql.snapshot,
+    comments: ingest ticket satisfactions from mysql to bronze glpi/ticket_satisfactions,
+    author: anonymous, created: 1776693834202, flowName: ingest_ticket_satisfactions_mysql,
+    flowDesc: ''}
   407c6fcc-8b51-4856-93b5-612df92b2c70: {ver: 1, file: ingest_tickets_mysql.snapshot,
     comments: ingest tickets from glpi database to bronze glpi/tickets, author: anonymous,
     created: 1776693725051, flowName: ingest_tickets_mysql, flowDesc: ''}
