@@ -19,6 +19,9 @@ flows:
   38c2c66f-af6c-4a4e-b9b3-0494fff2ecd0: {ver: 1, file: ingest_followups_mysql.snapshot,
     comments: ingest followups from mysql to bronze glpi/followups, author: anonymous,
     created: 1776701465579, flowName: ingest_followups_mysql, flowDesc: ''}
+  381da6a9-3a53-4d55-b5d4-4954ce57c254: {ver: 1, file: ingest_locations_mysql.snapshot,
+    comments: ingest locations from mysql to bronze glpi/locations, author: anonymous,
+    created: 1776701719444, flowName: ingest_locations_mysql, flowDesc: ''}
   407c6fcc-8b51-4856-93b5-612df92b2c70: {ver: 1, file: ingest_tickets_mysql.snapshot,
     comments: ingest tickets from glpi database to bronze glpi/tickets, author: anonymous,
     created: 1776693725051, flowName: ingest_tickets_mysql, flowDesc: ''}
