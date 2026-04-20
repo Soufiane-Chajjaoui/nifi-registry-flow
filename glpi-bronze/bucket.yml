@@ -10,6 +10,9 @@ flows:
   f79cf4dc-6631-489f-9ad2-59e165595535: {ver: 1, file: ingest_slas_mysql.snapshot,
     comments: ingest slas from mysql to bronze glpi/slas, author: anonymous, created: 1776701520201,
     flowName: ingest_slas_mysql, flowDesc: ''}
+  98218b8b-586d-4bd8-9cc4-6a487ad4b0be: {ver: 1, file: ingest_categories_mysql.snapshot,
+    comments: ingest categories from mysql to bronze glpi/categories, author: anonymous,
+    created: 1776701647432, flowName: ingest_categories_mysql, flowDesc: ''}
   38c2c66f-af6c-4a4e-b9b3-0494fff2ecd0: {ver: 1, file: ingest_followups_mysql.snapshot,
     comments: ingest followups from mysql to bronze glpi/followups, author: anonymous,
     created: 1776701465579, flowName: ingest_followups_mysql, flowDesc: ''}
