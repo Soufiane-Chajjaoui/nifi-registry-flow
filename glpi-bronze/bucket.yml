@@ -1,6 +1,0 @@
-flows:
-  a7ec8e21-3f04-4c66-bd9e-0497160e3913: {ver: 2, file: ingest_tickets_mysql.snapshot,
-    comments: load tickets from mysql database(glpi-db) to bronze layer, author: anonymous,
-    created: 1776684632934, flowName: ingest_tickets_mysql, flowDesc: ''}
-layoutVer: 1
-bucketId: 72482563-9e27-41e4-91e4-96b5d15cad13
