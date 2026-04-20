@@ -3,6 +3,9 @@ flows:
     comments: ingest ticket satisfactions from mysql to bronze glpi/ticket_satisfactions,
     author: anonymous, created: 1776693834202, flowName: ingest_ticket_satisfactions_mysql,
     flowDesc: ''}
+  f79cf4dc-6631-489f-9ad2-59e165595535: {ver: 1, file: ingest_slas_mysql.snapshot,
+    comments: ingest slas from mysql to bronze glpi/slas, author: anonymous, created: 1776701520201,
+    flowName: ingest_slas_mysql, flowDesc: ''}
   38c2c66f-af6c-4a4e-b9b3-0494fff2ecd0: {ver: 1, file: ingest_followups_mysql.snapshot,
     comments: ingest followups from mysql to bronze glpi/followups, author: anonymous,
     created: 1776701465579, flowName: ingest_followups_mysql, flowDesc: ''}
