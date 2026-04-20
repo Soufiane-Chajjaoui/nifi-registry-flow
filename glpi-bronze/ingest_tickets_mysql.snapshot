@@ -1,0 +1,91 @@
+{
+  "header" : {
+    "dataModelVersion" : "3"
+  },
+  "content" : {
+    "flowSnapshot" : {
+      "externalControllerServices" : { },
+      "flowContents" : {
+        "comments" : "",
+        "componentType" : "PROCESS_GROUP",
+        "connections" : [ ],
+        "controllerServices" : [ ],
+        "defaultBackPressureDataSizeThreshold" : "1 GB",
+        "defaultBackPressureObjectThreshold" : 10000,
+        "defaultFlowFileExpiration" : "0 sec",
+        "flowFileConcurrency" : "UNBOUNDED",
+        "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
+        "funnels" : [ ],
+        "identifier" : "a84dc42a-195a-383f-9683-f5f3b5f67ee6",
+        "inputPorts" : [ ],
+        "instanceIdentifier" : "aa6d1253-019d-1000-f394-e1783871a3a6",
+        "labels" : [ ],
+        "name" : "glpi",
+        "outputPorts" : [ ],
+        "position" : {
+          "x" : 334.0,
+          "y" : 79.0
+        },
+        "processGroups" : [ {
+          "comments" : "",
+          "componentType" : "PROCESS_GROUP",
+          "connections" : [ ],
+          "controllerServices" : [ ],
+          "defaultBackPressureDataSizeThreshold" : "1 GB",
+          "defaultBackPressureObjectThreshold" : 10000,
+          "defaultFlowFileExpiration" : "0 sec",
+          "flowFileConcurrency" : "UNBOUNDED",
+          "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
+          "funnels" : [ ],
+          "groupIdentifier" : "a84dc42a-195a-383f-9683-f5f3b5f67ee6",
+          "identifier" : "3398ac01-9d90-30cb-a1d7-5d3690b1f6ea",
+          "inputPorts" : [ ],
+          "instanceIdentifier" : "aa6d2ce1-019d-1000-9287-1d0e514d30d8",
+          "labels" : [ ],
+          "name" : "bronze",
+          "outputPorts" : [ ],
+          "position" : {
+            "x" : 184.0,
+            "y" : 24.0
+          },
+          "processGroups" : [ {
+            "comments" : "",
+            "componentType" : "PROCESS_GROUP",
+            "connections" : [ ],
+            "controllerServices" : [ ],
+            "defaultBackPressureDataSizeThreshold" : "1 GB",
+            "defaultBackPressureObjectThreshold" : 10000,
+            "defaultFlowFileExpiration" : "0 sec",
+            "flowFileConcurrency" : "UNBOUNDED",
+            "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
+            "funnels" : [ ],
+            "groupIdentifier" : "3398ac01-9d90-30cb-a1d7-5d3690b1f6ea",
+            "identifier" : "20fa5fde-f361-3034-a90d-5e24cf7ed593",
+            "inputPorts" : [ ],
+            "instanceIdentifier" : "aa6d69da-019d-1000-55a1-d156c3d964e5",
+            "labels" : [ ],
+            "name" : "tickets.mysql",
+            "outputPorts" : [ ],
+            "position" : {
+              "x" : 176.0,
+              "y" : 16.0
+            },
+            "processGroups" : [ ],
+            "processors" : [ ],
+            "remoteProcessGroups" : [ ],
+            "variables" : { }
+          } ],
+          "processors" : [ ],
+          "remoteProcessGroups" : [ ],
+          "variables" : { }
+        } ],
+        "processors" : [ ],
+        "remoteProcessGroups" : [ ],
+        "variables" : { }
+      },
+      "flowEncodingVersion" : "1.0",
+      "parameterContexts" : { },
+      "parameterProviders" : { }
+    }
+  }
+}
