@@ -20,10 +20,9 @@ flows:
   98218b8b-586d-4bd8-9cc4-6a487ad4b0be: {ver: 1, file: ingest_categories_mysql.snapshot,
     comments: ingest categories from mysql to bronze glpi/categories, author: anonymous,
     created: 1776701647432, flowName: ingest_categories_mysql, flowDesc: ''}
-  38c2c66f-af6c-4a4e-b9b3-0494fff2ecd0: {ver: 2, file: ingest_followups_mysql.snapshot,
-    comments: 'feat: convert to Parquet using ConvertRecord - AvroReader → ParquetRecordSetWriter
-      - SNAPPY compression - Date partitioning in Bronze', author: anonymous, created: 1778055828580,
-    flowName: ingest_followups_mysql, flowDesc: ''}
+  38c2c66f-af6c-4a4e-b9b3-0494fff2ecd0: {ver: 3, file: ingest_followups_mysql.snapshot,
+    comments: add parametre context, author: anonymous, created: 1778082254939, flowName: ingest_followups_mysql,
+    flowDesc: ''}
   381da6a9-3a53-4d55-b5d4-4954ce57c254: {ver: 1, file: ingest_locations_mysql.snapshot,
     comments: ingest locations from mysql to bronze glpi/locations, author: anonymous,
     created: 1776701719444, flowName: ingest_locations_mysql, flowDesc: ''}
