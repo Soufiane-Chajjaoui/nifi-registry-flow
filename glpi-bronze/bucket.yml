@@ -1,8 +1,7 @@
 flows:
-  8495b918-a316-498a-b128-ddd188776554: {ver: 1, file: ingest_ticket_satisfactions_mysql.snapshot,
-    comments: ingest ticket satisfactions from mysql to bronze glpi/ticket_satisfactions,
-    author: anonymous, created: 1776693834202, flowName: ingest_ticket_satisfactions_mysql,
-    flowDesc: ''}
+  8495b918-a316-498a-b128-ddd188776554: {ver: 2, file: ingest_ticket_satisfactions_mysql.snapshot,
+    comments: change processor to convert data table result to parquet, author: anonymous,
+    created: 1778085067063, flowName: ingest_ticket_satisfactions_mysql, flowDesc: ''}
   857c20ea-aec3-4aad-98fa-007edb92bb5a: {ver: 1, file: ingest_profiles_mysql_.snapshot,
     comments: ingest profiles from mysql to bronze glpi/profiles, author: anonymous,
     created: 1778080613291, flowName: 'ingest_profiles_mysql ', flowDesc: ''}
