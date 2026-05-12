@@ -1,7 +1,7 @@
 flows:
-  8495b918-a316-498a-b128-ddd188776554: {ver: 2, file: ingest_ticket_satisfactions_mysql.snapshot,
-    comments: change processor to convert data table result to parquet, author: anonymous,
-    created: 1778085067063, flowName: ingest_ticket_satisfactions_mysql, flowDesc: ''}
+  8495b918-a316-498a-b128-ddd188776554: {ver: 3, file: ingest_ticket_satisfactions_mysql.snapshot,
+    comments: propertie changed, author: anonymous, created: 1778585036529, flowName: ingest_ticket_satisfactions_mysql,
+    flowDesc: ''}
   9ec677fd-afc0-468c-a295-ae978660b667: {ver: 2, file: ingest_users_tickets_mysql.snapshot,
     comments: change processor to convert data table result to parquet, author: anonymous,
     created: 1778085508707, flowName: ingest_users_tickets_mysql, flowDesc: ''}
