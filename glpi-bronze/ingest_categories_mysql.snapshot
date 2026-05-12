@@ -77,7 +77,7 @@
           "name" : "",
           "partitioningAttribute" : "",
           "prioritizers" : [ ],
-          "selectedRelationships" : [ "failure", "success" ],
+          "selectedRelationships" : [ "success", "failure" ],
           "source" : {
             "comments" : "",
             "groupId" : "41996f87-7220-35f2-a8be-0d7edc646124",
@@ -265,7 +265,7 @@
               "name" : "custom-signer-module-location",
               "resourceDefinition" : {
                 "cardinality" : "MULTIPLE",
-                "resourceTypes" : [ "DIRECTORY", "FILE" ]
+                "resourceTypes" : [ "FILE", "DIRECTORY" ]
               },
               "sensitive" : false
             },
@@ -482,7 +482,7 @@
           },
           "properties" : {
             "ingest_ts" : "${now():format('yyyy-MM-dd HH:mm:ss')}",
-            "s3.key" : "glpi/categories/${now():format('yyyy/MM/dd')}/${UUID()}.json",
+            "s3.key" : "glpi/categories/${now():format('yyyy/MM/dd')}/${UUID()}.parquet",
             "Store State" : "Do not store state",
             "canonical-value-lookup-cache-size" : "100",
             "source" : "mysql",
