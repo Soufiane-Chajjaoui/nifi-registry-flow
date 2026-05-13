@@ -26,6 +26,9 @@ flows:
   9ec677fd-afc0-468c-a295-ae978660b667: {ver: 3, file: ingest_users_tickets_mysql.snapshot,
     comments: propertie changed, author: anonymous, created: 1778585040711, flowName: ingest_users_tickets_mysql,
     flowDesc: ''}
+  06f7156f-273f-4120-a8b4-baeddd2633d4: {ver: 1, file: ingest_group_tickets_mysql.snapshot,
+    comments: init commit, author: anonymous, created: 1778693838335, flowName: ingest_group_tickets_mysql,
+    flowDesc: ''}
   8838d658-39bb-4c71-9466-713fc9fa64ac: {ver: 1, file: inget_solution_mysql.snapshot,
     comments: init commit, author: anonymous, created: 1778693679489, flowName: inget_solution_mysql,
     flowDesc: ''}
