@@ -6,9 +6,15 @@ flows:
     comments: the precessor QueryDatabaseTable has been changed by athor processor
       ExecuteSQLRecord to resolve column name 2fa, author: anonymous, created: 1779201470988,
     flowName: 'ingest_profiles_mysql ', flowDesc: ''}
-  1f7d2d80-a681-4571-b719-60901fc6285d: {ver: 3, file: ingest_users_mysql.snapshot,
-    comments: parametre Context + DBCP-DEV, author: anonymous, created: 1778082310792,
-    flowName: ingest_users_mysql, flowDesc: ''}
+  1f7d2d80-a681-4571-b719-60901fc6285d:
+    ver: 4
+    file: ingest_users_mysql.snapshot
+    comments: |
+      the precessor QueryDatabaseTable has been changed by athor processor ExecuteSQLRecord to resolve column name 2fa
+    author: anonymous
+    created: 1779201535118
+    flowName: ingest_users_mysql
+    flowDesc: ''
   be6cfa93-da79-4ace-bd28-bfe22c92c495: {ver: 2, file: ingest_profiles_users_mysql.snapshot,
     comments: propertie changed, author: anonymous, created: 1778584998687, flowName: ingest_profiles_users_mysql,
     flowDesc: ''}
