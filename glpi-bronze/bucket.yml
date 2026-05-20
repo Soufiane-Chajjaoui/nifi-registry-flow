@@ -6,15 +6,9 @@ flows:
     comments: the precessor QueryDatabaseTable has been changed by athor processor
       ExecuteSQLRecord to resolve column name 2fa, author: anonymous, created: 1779201470988,
     flowName: 'ingest_profiles_mysql ', flowDesc: ''}
-  1f7d2d80-a681-4571-b719-60901fc6285d:
-    ver: 4
-    file: ingest_users_mysql.snapshot
-    comments: |
-      the precessor QueryDatabaseTable has been changed by athor processor ExecuteSQLRecord to resolve column name 2fa
-    author: anonymous
-    created: 1779201535118
-    flowName: ingest_users_mysql
-    flowDesc: ''
+  1f7d2d80-a681-4571-b719-60901fc6285d: {ver: 5, file: ingest_users_mysql.snapshot,
+    comments: chnaging to QueryDatabaseTableRecord, author: anonymous, created: 1779309744716,
+    flowName: ingest_users_mysql, flowDesc: ''}
   be6cfa93-da79-4ace-bd28-bfe22c92c495: {ver: 2, file: ingest_profiles_users_mysql.snapshot,
     comments: propertie changed, author: anonymous, created: 1778584998687, flowName: ingest_profiles_users_mysql,
     flowDesc: ''}
@@ -42,11 +36,11 @@ flows:
   8838d658-39bb-4c71-9466-713fc9fa64ac: {ver: 1, file: inget_solution_mysql.snapshot,
     comments: init commit, author: anonymous, created: 1778693679489, flowName: inget_solution_mysql,
     flowDesc: ''}
-  5fd0d6e7-9eda-4bda-b0a9-f8d43dd2e3be: {ver: 1, file: ingest_sla_level_mysql.snapshot,
-    comments: init commit, author: anonymous, created: 1778693712938, flowName: ingest_sla_level_mysql,
-    flowDesc: ''}
   f79cf4dc-6631-489f-9ad2-59e165595535: {ver: 3, file: ingest_slas_mysql.snapshot,
     comments: propertie changed, author: anonymous, created: 1778585111837, flowName: ingest_slas_mysql,
+    flowDesc: ''}
+  5fd0d6e7-9eda-4bda-b0a9-f8d43dd2e3be: {ver: 1, file: ingest_sla_level_mysql.snapshot,
+    comments: init commit, author: anonymous, created: 1778693712938, flowName: ingest_sla_level_mysql,
     flowDesc: ''}
   38c2c66f-af6c-4a4e-b9b3-0494fff2ecd0: {ver: 3, file: ingest_followups_mysql.snapshot,
     comments: add parametre context, author: anonymous, created: 1778082254939, flowName: ingest_followups_mysql,
