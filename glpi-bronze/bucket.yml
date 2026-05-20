@@ -2,9 +2,8 @@ flows:
   8495b918-a316-498a-b128-ddd188776554: {ver: 3, file: ingest_ticket_satisfactions_mysql.snapshot,
     comments: propertie changed, author: anonymous, created: 1778585036529, flowName: ingest_ticket_satisfactions_mysql,
     flowDesc: ''}
-  857c20ea-aec3-4aad-98fa-007edb92bb5a: {ver: 3, file: ingest_profiles_mysql_.snapshot,
-    comments: the precessor QueryDatabaseTable has been changed by athor processor
-      ExecuteSQLRecord to resolve column name 2fa, author: anonymous, created: 1779201470988,
+  857c20ea-aec3-4aad-98fa-007edb92bb5a: {ver: 4, file: ingest_profiles_mysql_.snapshot,
+    comments: changing to QueryDatabaseTableRecord, author: anonymous, created: 1779309763402,
     flowName: 'ingest_profiles_mysql ', flowDesc: ''}
   1f7d2d80-a681-4571-b719-60901fc6285d: {ver: 5, file: ingest_users_mysql.snapshot,
     comments: chnaging to QueryDatabaseTableRecord, author: anonymous, created: 1779309744716,
