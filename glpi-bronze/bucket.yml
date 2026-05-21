@@ -1,7 +1,13 @@
 flows:
-  8495b918-a316-498a-b128-ddd188776554: {ver: 3, file: ingest_ticket_satisfactions_mysql.snapshot,
-    comments: propertie changed, author: anonymous, created: 1778585036529, flowName: ingest_ticket_satisfactions_mysql,
-    flowDesc: ''}
+  8495b918-a316-498a-b128-ddd188776554:
+    ver: 4
+    file: ingest_ticket_satisfactions_mysql.snapshot
+    comments: "change column reference to load data from DB \nfrom date_answer to\
+      \ id"
+    author: anonymous
+    created: 1779362035130
+    flowName: ingest_ticket_satisfactions_mysql
+    flowDesc: ''
   857c20ea-aec3-4aad-98fa-007edb92bb5a: {ver: 4, file: ingest_profiles_mysql_.snapshot,
     comments: changing to QueryDatabaseTableRecord, author: anonymous, created: 1779309763402,
     flowName: 'ingest_profiles_mysql ', flowDesc: ''}
@@ -35,11 +41,11 @@ flows:
   8838d658-39bb-4c71-9466-713fc9fa64ac: {ver: 1, file: inget_solution_mysql.snapshot,
     comments: init commit, author: anonymous, created: 1778693679489, flowName: inget_solution_mysql,
     flowDesc: ''}
-  f79cf4dc-6631-489f-9ad2-59e165595535: {ver: 4, file: ingest_slas_mysql.snapshot,
-    comments: change DBCP, author: anonymous, created: 1779310691027, flowName: ingest_slas_mysql,
-    flowDesc: ''}
   5fd0d6e7-9eda-4bda-b0a9-f8d43dd2e3be: {ver: 1, file: ingest_sla_level_mysql.snapshot,
     comments: init commit, author: anonymous, created: 1778693712938, flowName: ingest_sla_level_mysql,
+    flowDesc: ''}
+  f79cf4dc-6631-489f-9ad2-59e165595535: {ver: 4, file: ingest_slas_mysql.snapshot,
+    comments: change DBCP, author: anonymous, created: 1779310691027, flowName: ingest_slas_mysql,
     flowDesc: ''}
   38c2c66f-af6c-4a4e-b9b3-0494fff2ecd0: {ver: 3, file: ingest_followups_mysql.snapshot,
     comments: add parametre context, author: anonymous, created: 1778082254939, flowName: ingest_followups_mysql,

@@ -5,17 +5,17 @@
   "content" : {
     "flowSnapshot" : {
       "externalControllerServices" : {
-        "fb895cb8-57cf-33b8-9ac0-e9cc610102c8" : {
-          "identifier" : "fb895cb8-57cf-33b8-9ac0-e9cc610102c8",
+        "17b64fee-acdc-3577-a4f5-dc1ea52a6b98" : {
+          "identifier" : "17b64fee-acdc-3577-a4f5-dc1ea52a6b98",
           "name" : "AvroReader"
         },
-        "a8b3ea06-1606-3a56-8b85-8a564edad242" : {
-          "identifier" : "a8b3ea06-1606-3a56-8b85-8a564edad242",
-          "name" : "ParquetRecordSetWriter"
+        "7de56eb6-5be6-35db-ba5d-db1c03ea04cd" : {
+          "identifier" : "7de56eb6-5be6-35db-ba5d-db1c03ea04cd",
+          "name" : "DBCPConnectionPool"
         },
-        "125f0d49-7491-39d0-bd66-5353f397116a" : {
-          "identifier" : "125f0d49-7491-39d0-bd66-5353f397116a",
-          "name" : "DBCP-DEV"
+        "68d3f42b-a83a-3e74-a7a1-a14eb3ed83ac" : {
+          "identifier" : "68d3f42b-a83a-3e74-a7a1-a14eb3ed83ac",
+          "name" : "ParquetRecordSetWriter"
         }
       },
       "flowContents" : {
@@ -28,16 +28,16 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "70adb3ea-8f62-3a37-8907-6b8bedf61e4c",
+            "groupId" : "de8fd84f-7d7b-3851-a2f1-0e7ed4a1dcf9",
             "id" : "108e2130-9aa3-32c1-ada8-ba95fb59ba6a",
-            "instanceIdentifier" : "522f9178-847e-3333-b9af-96eeb860373d",
+            "instanceIdentifier" : "767f10ea-530a-3816-0033-08cd2c87e908",
             "name" : "PutS3Object",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "70adb3ea-8f62-3a37-8907-6b8bedf61e4c",
+          "groupIdentifier" : "de8fd84f-7d7b-3851-a2f1-0e7ed4a1dcf9",
           "identifier" : "e175f8e5-aca5-35b5-afc2-cd8a1d514cfe",
-          "instanceIdentifier" : "fe01b8d7-019d-1000-2f76-cf11a7ba90f1",
+          "instanceIdentifier" : "c77650b0-5d28-3f9c-da96-9272e76524f8",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
           "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
@@ -47,9 +47,9 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "70adb3ea-8f62-3a37-8907-6b8bedf61e4c",
+            "groupId" : "de8fd84f-7d7b-3851-a2f1-0e7ed4a1dcf9",
             "id" : "b609e641-a60d-3050-964f-8af3a798dd08",
-            "instanceIdentifier" : "e604ee3f-1179-3bb6-bffc-e150c2aa5047",
+            "instanceIdentifier" : "85cabd2c-144b-3d71-b39b-d364a0e404fb",
             "name" : "UpdateAttribute",
             "type" : "PROCESSOR"
           },
@@ -61,16 +61,16 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "70adb3ea-8f62-3a37-8907-6b8bedf61e4c",
+            "groupId" : "de8fd84f-7d7b-3851-a2f1-0e7ed4a1dcf9",
             "id" : "b609e641-a60d-3050-964f-8af3a798dd08",
-            "instanceIdentifier" : "e604ee3f-1179-3bb6-bffc-e150c2aa5047",
+            "instanceIdentifier" : "85cabd2c-144b-3d71-b39b-d364a0e404fb",
             "name" : "UpdateAttribute",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "70adb3ea-8f62-3a37-8907-6b8bedf61e4c",
+          "groupIdentifier" : "de8fd84f-7d7b-3851-a2f1-0e7ed4a1dcf9",
           "identifier" : "c5705cad-f514-3073-bad6-cde139219577",
-          "instanceIdentifier" : "fe025586-019d-1000-e023-f5613cb3501f",
+          "instanceIdentifier" : "a61ee662-2201-33da-62a8-761ab533c884",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
           "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
@@ -80,9 +80,9 @@
           "selectedRelationships" : [ "success", "failure" ],
           "source" : {
             "comments" : "",
-            "groupId" : "70adb3ea-8f62-3a37-8907-6b8bedf61e4c",
+            "groupId" : "de8fd84f-7d7b-3851-a2f1-0e7ed4a1dcf9",
             "id" : "edaeec7f-09b5-39a6-9b35-c1f2d0e05a5c",
-            "instanceIdentifier" : "fe0225d1-019d-1000-6ec1-78b2ea5473e5",
+            "instanceIdentifier" : "7c9eba14-489e-3538-42fc-14a62c22c351",
             "name" : "ConvertRecord",
             "type" : "PROCESSOR"
           },
@@ -94,16 +94,16 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "70adb3ea-8f62-3a37-8907-6b8bedf61e4c",
+            "groupId" : "de8fd84f-7d7b-3851-a2f1-0e7ed4a1dcf9",
             "id" : "edaeec7f-09b5-39a6-9b35-c1f2d0e05a5c",
-            "instanceIdentifier" : "fe0225d1-019d-1000-6ec1-78b2ea5473e5",
+            "instanceIdentifier" : "7c9eba14-489e-3538-42fc-14a62c22c351",
             "name" : "ConvertRecord",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "70adb3ea-8f62-3a37-8907-6b8bedf61e4c",
+          "groupIdentifier" : "de8fd84f-7d7b-3851-a2f1-0e7ed4a1dcf9",
           "identifier" : "a40b404c-c6b6-3b7f-a945-8a3720f43b9c",
-          "instanceIdentifier" : "fe0242b6-019d-1000-3b95-7db827ee5f7a",
+          "instanceIdentifier" : "305db4f1-7e82-3a65-61dc-ba5f11a3c660",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
           "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
@@ -113,9 +113,9 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "70adb3ea-8f62-3a37-8907-6b8bedf61e4c",
+            "groupId" : "de8fd84f-7d7b-3851-a2f1-0e7ed4a1dcf9",
             "id" : "799344c5-a2ab-32b0-93b1-f55c79db45f6",
-            "instanceIdentifier" : "96dcdb04-eb88-3843-a56f-b8dc6896c33c",
+            "instanceIdentifier" : "3d15dd40-339d-3496-f37d-ee0b60a4e264",
             "name" : "QueryDatabaseTable",
             "type" : "PROCESSOR"
           },
@@ -128,17 +128,17 @@
         "flowFileConcurrency" : "UNBOUNDED",
         "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
         "funnels" : [ ],
-        "identifier" : "70adb3ea-8f62-3a37-8907-6b8bedf61e4c",
+        "identifier" : "de8fd84f-7d7b-3851-a2f1-0e7ed4a1dcf9",
         "inputPorts" : [ ],
-        "instanceIdentifier" : "fe00f1a9-019d-1000-6c33-1cb16f4ac366",
+        "instanceIdentifier" : "44dac09f-019e-1000-faf5-5c9cc4c53fd0",
         "labels" : [ ],
         "logFileSuffix" : "",
         "name" : "tickets_satisfaction.mysql",
         "outputPorts" : [ ],
         "parameterContextName" : "GLPI-DEV",
         "position" : {
-          "x" : 1256.0,
-          "y" : 344.0
+          "x" : 712.0,
+          "y" : 184.0
         },
         "processGroups" : [ ],
         "processors" : [ {
@@ -154,9 +154,9 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "PRIMARY",
-          "groupIdentifier" : "70adb3ea-8f62-3a37-8907-6b8bedf61e4c",
+          "groupIdentifier" : "de8fd84f-7d7b-3851-a2f1-0e7ed4a1dcf9",
           "identifier" : "799344c5-a2ab-32b0-93b1-f55c79db45f6",
-          "instanceIdentifier" : "96dcdb04-eb88-3843-a56f-b8dc6896c33c",
+          "instanceIdentifier" : "3d15dd40-339d-3496-f37d-ee0b60a4e264",
           "maxBackoffPeriod" : "10 mins",
           "name" : "QueryDatabaseTable",
           "penaltyDuration" : "30 sec",
@@ -169,8 +169,8 @@
             "db-fetch-db-type" : "MySQL",
             "dbf-default-precision" : "10",
             "Max Wait Time" : "0 seconds",
-            "Database Connection Pooling Service" : "125f0d49-7491-39d0-bd66-5353f397116a",
-            "Maximum-value Columns" : "date_answered",
+            "Database Connection Pooling Service" : "7de56eb6-5be6-35db-ba5d-db1c03ea04cd",
+            "Maximum-value Columns" : "id",
             "dbf-user-logical-types" : "false",
             "qdbt-output-batch-size" : "0",
             "qdbt-max-rows" : "0",
@@ -312,9 +312,9 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "70adb3ea-8f62-3a37-8907-6b8bedf61e4c",
+          "groupIdentifier" : "de8fd84f-7d7b-3851-a2f1-0e7ed4a1dcf9",
           "identifier" : "b609e641-a60d-3050-964f-8af3a798dd08",
-          "instanceIdentifier" : "e604ee3f-1179-3bb6-bffc-e150c2aa5047",
+          "instanceIdentifier" : "85cabd2c-144b-3d71-b39b-d364a0e404fb",
           "maxBackoffPeriod" : "10 mins",
           "name" : "UpdateAttribute",
           "penaltyDuration" : "30 sec",
@@ -409,9 +409,9 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "70adb3ea-8f62-3a37-8907-6b8bedf61e4c",
+          "groupIdentifier" : "de8fd84f-7d7b-3851-a2f1-0e7ed4a1dcf9",
           "identifier" : "edaeec7f-09b5-39a6-9b35-c1f2d0e05a5c",
-          "instanceIdentifier" : "fe0225d1-019d-1000-6ec1-78b2ea5473e5",
+          "instanceIdentifier" : "7c9eba14-489e-3538-42fc-14a62c22c351",
           "maxBackoffPeriod" : "10 mins",
           "name" : "ConvertRecord",
           "penaltyDuration" : "30 sec",
@@ -420,8 +420,8 @@
             "y" : 216.0
           },
           "properties" : {
-            "record-writer" : "a8b3ea06-1606-3a56-8b85-8a564edad242",
-            "record-reader" : "fb895cb8-57cf-33b8-9ac0-e9cc610102c8",
+            "record-writer" : "68d3f42b-a83a-3e74-a7a1-a14eb3ed83ac",
+            "record-reader" : "17b64fee-acdc-3577-a4f5-dc1ea52a6b98",
             "include-zero-record-flowfiles" : "true"
           },
           "propertyDescriptors" : {
@@ -466,9 +466,9 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "70adb3ea-8f62-3a37-8907-6b8bedf61e4c",
+          "groupIdentifier" : "de8fd84f-7d7b-3851-a2f1-0e7ed4a1dcf9",
           "identifier" : "108e2130-9aa3-32c1-ada8-ba95fb59ba6a",
-          "instanceIdentifier" : "522f9178-847e-3333-b9af-96eeb860373d",
+          "instanceIdentifier" : "767f10ea-530a-3816-0033-08cd2c87e908",
           "maxBackoffPeriod" : "10 mins",
           "name" : "PutS3Object",
           "penaltyDuration" : "30 sec",
