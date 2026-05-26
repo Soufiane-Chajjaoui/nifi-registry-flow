@@ -11,9 +11,9 @@ flows:
   857c20ea-aec3-4aad-98fa-007edb92bb5a: {ver: 4, file: ingest_profiles_mysql_.snapshot,
     comments: changing to QueryDatabaseTableRecord, author: anonymous, created: 1779309763402,
     flowName: 'ingest_profiles_mysql ', flowDesc: ''}
-  1f7d2d80-a681-4571-b719-60901fc6285d: {ver: 5, file: ingest_users_mysql.snapshot,
-    comments: chnaging to QueryDatabaseTableRecord, author: anonymous, created: 1779309744716,
-    flowName: ingest_users_mysql, flowDesc: ''}
+  1f7d2d80-a681-4571-b719-60901fc6285d: {ver: 6, file: ingest_users_mysql.snapshot,
+    comments: add some properties, author: anonymous, created: 1779758059556, flowName: ingest_users_mysql,
+    flowDesc: ''}
   be6cfa93-da79-4ace-bd28-bfe22c92c495: {ver: 2, file: ingest_profiles_users_mysql.snapshot,
     comments: propertie changed, author: anonymous, created: 1778584998687, flowName: ingest_profiles_users_mysql,
     flowDesc: ''}
