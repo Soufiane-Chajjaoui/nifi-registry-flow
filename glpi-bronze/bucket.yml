@@ -41,18 +41,18 @@ flows:
   8838d658-39bb-4c71-9466-713fc9fa64ac: {ver: 1, file: inget_solution_mysql.snapshot,
     comments: init commit, author: anonymous, created: 1778693679489, flowName: inget_solution_mysql,
     flowDesc: ''}
-  5fd0d6e7-9eda-4bda-b0a9-f8d43dd2e3be: {ver: 1, file: ingest_sla_level_mysql.snapshot,
-    comments: init commit, author: anonymous, created: 1778693712938, flowName: ingest_sla_level_mysql,
-    flowDesc: ''}
   f79cf4dc-6631-489f-9ad2-59e165595535: {ver: 4, file: ingest_slas_mysql.snapshot,
     comments: change DBCP, author: anonymous, created: 1779310691027, flowName: ingest_slas_mysql,
+    flowDesc: ''}
+  5fd0d6e7-9eda-4bda-b0a9-f8d43dd2e3be: {ver: 1, file: ingest_sla_level_mysql.snapshot,
+    comments: init commit, author: anonymous, created: 1778693712938, flowName: ingest_sla_level_mysql,
     flowDesc: ''}
   38c2c66f-af6c-4a4e-b9b3-0494fff2ecd0: {ver: 3, file: ingest_followups_mysql.snapshot,
     comments: add parametre context, author: anonymous, created: 1778082254939, flowName: ingest_followups_mysql,
     flowDesc: ''}
-  381da6a9-3a53-4d55-b5d4-4954ce57c254: {ver: 1, file: ingest_locations_mysql.snapshot,
-    comments: ingest locations from mysql to bronze glpi/locations, author: anonymous,
-    created: 1776701719444, flowName: ingest_locations_mysql, flowDesc: ''}
+  381da6a9-3a53-4d55-b5d4-4954ce57c254: {ver: 2, file: ingest_locations_mysql.snapshot,
+    comments: add some properties, author: anonymous, created: 1779757734381, flowName: ingest_locations_mysql,
+    flowDesc: ''}
   93bf1957-ae53-47c7-9893-4cae17546d69: {ver: 1, file: ingest_tickets_users.snapshot,
     comments: init commit, author: anonymous, created: 1778776239521, flowName: ingest_tickets_users,
     flowDesc: ''}
